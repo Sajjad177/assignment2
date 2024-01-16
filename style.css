@@ -187,6 +187,207 @@ button{
 .image7{
     grid-column: 6 / 13;
 }
+ /* why choose us section  */
+.container-description{
+    margin-top: 10%;
+}
+.description-title{
+    text-align: center;
+}
+.description-title h1{
+    padding-bottom: 2%;
+}
+.Hotel-card img {
+    width: 10%;
+}
+.card3 img{
+    width: 5%;
+}
+.Hotel-card h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2% 0;
+}
+.description-card .Hotel-card, .card3{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+    padding: 30px;
+}
+.description-card{
+    display: flex;
+    gap: 20px;
+    margin-top: 5%;
+} 
+.hotel-card{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+ /* why choose us section end */
+/* deals section */
+.deals{
+    margin-top: 5%;
+    text-align: center;
+}
+.deals-image-card1{
+    background-image: url("Images/Group39.png");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    /* margin-bottom: 2%; */
+    margin: 2% 0;
+}
+
+.card-1{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 2% ;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    top: 15%;
+    left: 50%;
+}
+.card-1 p{
+    padding-bottom: 2%;
+}
+.card-1 h5{
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 4%;
+}
+.deals-2{
+    background-image: url("Images/Group40.png");
+}
+.card-left{
+    position: relative;
+    left: 5%;
+}
+.deals-image {
+    text-align: center;
+}
+/* deals section end*/
+/* perfect place section start */
+.perfect-place-text *{
+    padding-bottom: 2%;
+}
+.perfect-place{
+    display: flex;
+    margin-top: 10%;
+}
+.perfect-place-text{
+    width: 80%;
+    margin-right: 10%
+}
+.perfect-place-text h1{
+    color: #131318;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.perfect-place-text ul li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.perfect-place-img{
+    background-image:url("Images/Group40089.png");
+    width: 80%;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+.perfect-place-img h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    top: 25%;
+}
+/* newsletter image section */
+.newsletter{
+    display: flex;
+    gap: 40px;
+}
+.newsletter-form h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+.newsletter-form p{
+    margin-bottom: 5%;
+}
+
+.newsletter-form{
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 50%;
+    padding: 4%;
+}
+.newsletter .newsletter-form form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.newsletter .newsletter-form form input{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px;
+    margin: 10% 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    width: 150%;
+}
+.newsletter .newsletter-form form button{
+    width: 150%;
+}
+.newsletter-img{
+    background-image: url("Images/Rectangle8.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 45%;
+}
+.save-text{
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    width: 30%;
+    padding: 15px;
+    position: relative;
+    top: 60%;
+    left: 65%;
+    text-align: center;
+    transform: rotate(-45deg);
+}
+/* footer section start */
+.footer-text *{
+    padding-bottom:20px;
+}
+.footer-text{
+    background-color:  rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top:  5%;
+}
+.footer-text .footer-title{
+    padding-top: 5%;
+    padding-bottom: 2%; 
+}
+.footer-text .social-icon{
+    font-size: 3vw;
+}
+.footer-text .last-text{
+    padding-bottom: 5%;
+}
 
 
 
@@ -263,6 +464,68 @@ button{
     .image7{
         grid-column:1;
     }
+    .description-title h1 {
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+    .description-card{
+        flex-direction: column;
+    }
+    .hotel-card{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .description-card .Hotel-card, .card3{
+        width: 100%;
+    }
+    .Hotel-card img{
+        width: 25%;
+    }
+    .deals-title h1{
+        font-size: 2rem;
+    }
+    .deals-image-card1 {
+        height: 80vh;
+    }
+    .card-1{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+    .card-1 p{
+        padding-bottom: 5%;
+    }
+    .perfect-place{
+        flex-direction: column;
+    }
+    .perfect-place-text h1{
+        font-size: 1.5rem;
+    }
+    .perfect-place-img{
+        width: 100%;
+        height: 70vh;
+        margin-top: 5%;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-form{
+        width: 90%;
+    }
+    .newsletter-img{
+        width: 90%;
+        height: 70vh;
+    }
+    .save-text{
+        width: 30%;
+        position: relative;
+        top: 60%;
+        left: 60%;
+        transform: rotate(-25deg);
+    }
+    footer{
+        width: 100%;
+    }
 }
 
 
@@ -315,5 +578,53 @@ button{
     .popular-tour-img img{
         margin-top: 15px;
         width: 100%;
+    }
+    /* destination not add */
+    .description-title h1 {
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+    .description-card{
+        flex-direction: column;
+    }
+    .hotel-card{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .description-card .Hotel-card, .card3{
+        width: 90%;
+    }
+    .Hotel-card img{
+        width: 25%;
+    }
+    .deals-title h1{
+        font-size: 2rem;
+    }
+    .deals-image-card1 {
+        height: 90vh;
+        width: 90%;
+    }
+    .card-1 h5{
+        font-size: 1rem;
+    }
+    .card-1 h2{
+        font-size: 1rem;
+    }
+    .card-1{
+        position: relative;
+        left: 10%;
+        width: 80%;
+        height: 75vh;
+    }
+    .perfect-place{
+        flex-direction: column;
+        width: 85%;
+    }
+    .perfect-place-text h1{
+        font-size: 1.5rem;
+    }
+    .perfect-place-img{
+        width: 100%;
+        height: 70vh;
     }
 }
